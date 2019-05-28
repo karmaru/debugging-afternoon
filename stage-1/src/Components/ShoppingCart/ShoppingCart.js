@@ -3,6 +3,8 @@ import "./ShoppingCart.css";
 
 class ShoppingCart extends Component {
   render() {
+    console.log(3333, this.props.cart)
+    // let shoppingCartDisplay = this.props.cart.map((element, index) => {
     let shoppingCartDisplay = this.props.cart.map((element, index) => {
       return (
         <div className="shopping-cart-product-container" key={index}>
